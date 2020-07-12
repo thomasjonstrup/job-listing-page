@@ -5,7 +5,7 @@ import './App.css';
 
 import data from './data.json'
 
-import HeaderBg from './images/bg-header-desktop.svg';
+//import HeaderBg from './images/bg-header-desktop.svg';
 import iconRemove from './images/icon-remove.svg';
 
 interface LayoutDefaultProps {
@@ -86,7 +86,7 @@ function App() {
 
 								<span className="tag">{item}</span>
 								<button className="bg-teal-500 mr-2 p-0 flex w-4 border-none justify-center items-center rounded-l-none rounded-r-md" onClick={() => handleRemoveClick('Frontend')} >
-									<img src={iconRemove} alt="image-close" className="" />
+									<img src={iconRemove} alt="close" className="" />
 								</button>
 							</div>
 						)
