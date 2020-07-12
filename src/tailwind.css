@@ -6,6 +6,10 @@
    --very-dark-grayish-cyan: hsl(180, 14%, 20%);
 }
 
+.bottom-70 {
+	bottom: -70px;
+}
+
 
 @tailwind base;
 @tailwind components;
